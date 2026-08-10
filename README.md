@@ -1,2 +1,80 @@
 # My-SQL-Projects-repo
 
+# SQL Retail & Sales Analysis Project
+
+## Overview
+This project was completed during a Data Technician Bootcamp and demonstrates the use of SQL to query, analyse, and extract insights from retail and sales datasets. Using databases such as Northwind, I developed SQL queries to retrieve, filter, aggregate, and combine data from multiple tables to support business reporting and decision-making.
+
+## Project Objectives
+- Analyse retail, customer, product, and sales data using SQL.
+- Extract meaningful insights from relational databases.
+- Apply filtering, sorting, aggregation, and table relationships to answer business questions.
+- Develop practical database querying skills used in data analytics and business intelligence.
+
+## Key Skills Demonstrated
+
+### Data Retrieval
+- Used `SELECT` statements to retrieve data from multiple database tables.
+- Selected individual columns and complete datasets depending on reporting requirements.
+- Applied aliases to improve query readability.
+
+### Data Filtering
+- Used `WHERE` clauses to filter records based on business criteria.
+- Applied conditional operators such as:
+  - `=`
+  - `>`, `<`
+  - `BETWEEN`
+  - `IN`
+  - `LIKE`
+  - `AND` / `OR`
+- Targeted specific customer groups, products, orders, and locations.
+
+### Data Sorting
+- Utilised `ORDER BY` to organise query results.
+- Sorted sales, order, and customer data in both ascending and descending order.
+- Improved report usability by ranking results based on key metrics.
+
+### Data Aggregation
+- Used `GROUP BY` to summarise business data.
+- Applied aggregate functions including:
+  - `COUNT()`
+  - `SUM()`
+  - `AVG()`
+- Generated reports showing product counts, sales volumes, and category-level insights.
+
+### Table Relationships & JOINs
+- Worked with relational databases using table keys and relationships.
+- Performed:
+  - `INNER JOIN`
+  - `LEFT JOIN`
+  - `RIGHT JOIN`
+  - `FULL JOIN`
+  - `CROSS JOIN`
+- Combined customer, order, product, supplier, and category data to create business-focused reports.
+
+<img width="628" height="256" alt="image" src="https://github.com/user-attachments/assets/e78ed6c2-4e43-4ab5-905c-cf2abbadd647" />
+
+<img width="629" height="176" alt="image" src="https://github.com/user-attachments/assets/b71bfd0d-ce66-470a-9520-addbf25ec403" />
+
+<img width="629" height="259" alt="image" src="https://github.com/user-attachments/assets/45002825-bfa0-4be5-a668-af67f8579276" />
+
+
+
+## Example Business Questions Answered
+- Which products generate the highest sales volumes?
+- Which suppliers provide specific products?
+- How many products exist within each category?
+- Which customers placed orders during a specific period?
+- Which product categories contribute most to sales activity?
+- How can customer and order data be combined to create complete sales reports?
+
+## SQL Concepts Applied
+- Database Design Fundamentals
+- Relational Database Structures
+- Primary and Foreign Keys
+- Data Filtering and Searching
+- Aggregate Functions
+- Grouping and Summarisation
+- Multi-Table Queries
+- JOIN Operations
+- Query Optim
