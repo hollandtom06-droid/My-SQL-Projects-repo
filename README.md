@@ -1,4 +1,3 @@
-# My-SQL-Projects-repo
 
 # SQL Retail & Sales Analysis Project
 
