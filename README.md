@@ -91,7 +91,42 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
 
 <img width="174" height="24" alt="image" src="https://github.com/user-attachments/assets/93e20085-1c27-4e0c-99ef-dee4db7b27ce" />
 
-- only shows customers who don't have an order. when a customer has no matching order SQL puts null (nothing) in the orderid column
+- only shows customers who don't have an order. when a customer has no matching order SQL puts null (nothing) in the orderid column.
+
+<img width="267" height="37" alt="image" src="https://github.com/user-attachments/assets/eb191f52-4783-4dfb-b48c-5031d1c25f6e" />
+
+- sorts the results alphabetically by customer name.
+
+
+The whole query means:
+
+“Find all customers who have never placed an order and list their names alphabetically.”
+
+Example
+
+If your tables contained:
+
+Customers
+
+| CustomerID | CustomerName |
+| ---------: | ------------ |
+|          1 | John         |
+|          2 | Sarah        |
+|          3 | Tom          |
+
+Orders
+
+| OrderID | CustomerID |
+| ------: | ---------: |
+|     101 |          1 |
+|     102 |          2 |
+
+The query would return:
+
+| CustomerName | OrderID |
+| ------------ | ------- |
+| Tom          | NULL    |
+
 
 
 ### Customer Order Analysis
