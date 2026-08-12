@@ -107,7 +107,7 @@ This query could be useful for identifying inactive customers. A business could 
 
 <img width="272" height="174" alt="Screenshot 2026-08-12 141847" src="https://github.com/user-attachments/assets/46792da1-79c2-41f5-8bd6-fd69c603b15f" />
 
-This is clear example of a full outer join and its breakdown is below. 
+This is clear example of a full outer join and its breakdown below. 
 
 <img width="152" height="101" alt="image" src="https://github.com/user-attachments/assets/925a5feb-2d7f-465e-b095-dc38f0f614e2" />
 
