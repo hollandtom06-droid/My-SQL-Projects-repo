@@ -85,7 +85,19 @@ This is a clear example of a left join and its breakdown
 
 <img width="332" height="24" alt="image" src="https://github.com/user-attachments/assets/3c0d385b-4e73-4d9c-ac02-16aa05fbf934" />
 
-- this tells SQL how to connect the tables, it then matches up customers where their customerid is the same in both tables. 
+- this tells SQL how to connect the tables, it then matches up customers where their customerid is the same in both tables.
+
+### Customer Order Analysis
+
+This query identifies customers who have not placed any orders.
+
+A `LEFT JOIN` is used to keep all customers, including those without a matching record in the `Orders` table. The `WHERE orderid IS NULL` condition then filters the results to show only customers with no orders.
+
+The results are sorted alphabetically using `ORDER BY`.
+
+**Conclusion:**
+This query could be useful for identifying inactive customers. A business could use this information to understand which customers have not made a purchase and potentially target them with marketing or customer engagement activities.
+
 
 
 
