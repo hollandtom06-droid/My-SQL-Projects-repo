@@ -83,12 +83,6 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
 - Which product categories contribute most to sales activity?
 - How can customer and order data be combined to create complete sales reports?
 
-## SQL Concepts Applied
-- Database Design Fundamentals
-- Relational Database Structures
-- Primary and Foreign Keys
-- Data Filtering and Searching
-- Aggregate Functions
 - Grouping and Summarisation
 - Multi-Table Queries
 - JOIN Operations
