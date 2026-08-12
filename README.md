@@ -102,10 +102,11 @@ This query could be useful for identifying inactive customers. A business could 
 
 
 
+This is clear example of a full outer join and its breakdown is below. 
 
 <img width="272" height="174" alt="Screenshot 2026-08-12 141847" src="https://github.com/user-attachments/assets/46792da1-79c2-41f5-8bd6-fd69c603b15f" />
 
-This is clear example of a full outer join and its breakdown. 
+
 
 
 
