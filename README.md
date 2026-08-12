@@ -67,9 +67,9 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
   - `CROSS JOIN`
 - Combined customer, order, product, supplier, and category data to create business-focused reports.
 
-<img width="492" height="104" alt="image" src="https://github.com/user-attachments/assets/19aad736-1a85-41d5-86b0-988f12f0c3b9" />
+#This is a clear example of a left join and its breakdown below
 
-This is a clear example of a left join and its breakdown
+<img width="492" height="104" alt="image" src="https://github.com/user-attachments/assets/19aad736-1a85-41d5-86b0-988f12f0c3b9" />
 
 <img width="336" height="25" alt="image" src="https://github.com/user-attachments/assets/2bfa4f88-a9af-492c-90a3-4406d38f0676" />
 
