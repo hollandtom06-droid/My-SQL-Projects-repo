@@ -79,7 +79,15 @@ This is a clear example of a left join and its breakdown
  
 - selecting from the customers table.
 
-LEFT JOIN orders - connects the orders table to the customers table (a left join keeps all results for customers even if they dont have an order)
+<img width="129" height="25" alt="image" src="https://github.com/user-attachments/assets/934a7734-dd4c-4069-983b-dbb6b377cfe7" />
+
+- connects the orders table to the customers table (a left join means to keep every customer even if they dont have an order).
+
+<img width="332" height="24" alt="image" src="https://github.com/user-attachments/assets/3c0d385b-4e73-4d9c-ac02-16aa05fbf934" />
+
+- this tells SQL how to connect the tables, it then matches up customers where their customerid is the same in both tables. 
+
+
 
 
 <img width="272" height="174" alt="Screenshot 2026-08-12 141847" src="https://github.com/user-attachments/assets/46792da1-79c2-41f5-8bd6-fd69c603b15f" />
