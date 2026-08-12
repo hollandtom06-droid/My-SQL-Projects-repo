@@ -110,12 +110,6 @@ This is clear example of a full outer join and its breakdown is below.
 
 
 
-
-
-<img width="629" height="259" alt="image" src="https://github.com/user-attachments/assets/45002825-bfa0-4be5-a668-af67f8579276" />
-
-
-
 ## Example Business Questions Answered
 - Which products generate the highest sales volumes?
 - Which suppliers provide specific products?
