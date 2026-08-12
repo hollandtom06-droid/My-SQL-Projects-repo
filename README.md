@@ -42,7 +42,9 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
   - `AVG()`
  
   COUNT() = How many things there are
+
   SUM() = Adds numbers together
+  
   AVG() = Finds the average amount
   
 - Generated reports showing product counts, sales volumes, and category-level insights.
