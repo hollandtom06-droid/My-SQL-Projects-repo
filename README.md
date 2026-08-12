@@ -107,6 +107,23 @@ This is clear example of a full outer join and its breakdown is below.
 
 <img width="272" height="174" alt="Screenshot 2026-08-12 141847" src="https://github.com/user-attachments/assets/46792da1-79c2-41f5-8bd6-fd69c603b15f" />
 
+<img width="152" height="101" alt="image" src="https://github.com/user-attachments/assets/925a5feb-2d7f-465e-b095-dc38f0f614e2" />
+
+- tells SQL what you want to see, which in this example would be customer id, customer name, order id and order date.
+
+<img width="208" height="18" alt="image" src="https://github.com/user-attachments/assets/9a8956b9-bd28-4b44-ac9d-8e5119e888cf" />
+
+- this then uses the customers table ('c' is just a short name for customers which saves time).
+
+<img width="269" height="20" alt="image" src="https://github.com/user-attachments/assets/5aa0201a-7303-4660-8c3f-28f27e47638d" />
+
+- connects the customers and the orders table, again 'o' is just a short name for orders. the important thing about a full outer join is that it keeps all the information from both tables even if there is no match. 
+
+
+
+
+
+
 
 
 
