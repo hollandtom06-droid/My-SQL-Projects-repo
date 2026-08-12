@@ -139,35 +139,162 @@ The results are sorted alphabetically using `ORDER BY`.
 
 **Conclusion:**
 This query could be useful for identifying inactive customers. A business could use this information to understand which customers have not made a purchase and potentially target them with marketing or customer engagement activities.
+ 
 
+## SQL Data Retrieval Examples
 
+### 1. Retrieve All Data
 
+```sql
+SELECT *
+FROM Sales;
+```
 
+**Result:**
+Returns all rows and columns from the `Sales` table.
 
+**Conclusion:**
+This is useful when you want to see all the available data in a table.
 
-<img width="272" height="174" alt="Screenshot 2026-08-12 141847" src="https://github.com/user-attachments/assets/46792da1-79c2-41f5-8bd6-fd69c603b15f" />
+---
 
-This is clear example of a full outer join and its breakdown below. 
+### 2. Filter Data Using WHERE
 
-<img width="152" height="101" alt="image" src="https://github.com/user-attachments/assets/925a5feb-2d7f-465e-b095-dc38f0f614e2" />
+```sql
+SELECT *
+FROM Orders
+WHERE OrderDate >= '2026-01-01';
+```
 
-- tells SQL what you want to see, which in this example would be customer id, customer name, order id and order date.
+**Result:**
+Returns orders made on or after 1 January 2026.
 
-<img width="208" height="18" alt="image" src="https://github.com/user-attachments/assets/9a8956b9-bd28-4b44-ac9d-8e5119e888cf" />
+**Conclusion:**
+`WHERE` can be used to filter data and only show the records that meet a condition.
 
-- this then uses the customers table ('c' is just a short name for customers which saves time).
+---
 
-<img width="269" height="20" alt="image" src="https://github.com/user-attachments/assets/5aa0201a-7303-4660-8c3f-28f27e47638d" />
+### 3. Sort Data Using ORDER BY
 
-- connects the customers and the orders table, again 'o' is just a short name for orders. the important thing about a full outer join is that it keeps all the information from both tables even if there is no match. 
+```sql
+SELECT ProductName, Revenue
+FROM Products
+ORDER BY Revenue DESC;
+```
 
+**Result:**
+Returns the product names and revenue, with the highest revenue shown first.
 
+**Conclusion:**
+`ORDER BY` is useful for arranging results from highest to lowest or lowest to highest.
 
+---
 
+### 4. Calculate Total Sales
 
+```sql
+SELECT SUM(SalesAmount) AS TotalSales
+FROM Sales;
+```
 
+**Result:**
+Returns the total amount of sales.
 
+**Conclusion:**
+`SUM()` is useful for adding numerical values together to find a total.
 
+---
+
+### 5. Find the Average Sale
+
+```sql
+SELECT AVG(SalesAmount) AS AverageSale
+FROM Sales;
+```
+
+**Result:**
+Returns the average sales amount.
+
+**Conclusion:**
+`AVG()` is useful for finding the average value of a column.
+
+---
+
+### 6. Count Records
+
+```sql
+SELECT COUNT(*) AS TotalOrders
+FROM Orders;
+```
+
+**Result:**
+Returns the total number of orders.
+
+**Conclusion:**
+`COUNT()` is useful for finding how many records are in a table.
+
+---
+
+### 7. Group Data
+
+```sql
+SELECT Category,
+       SUM(SalesAmount) AS TotalSales
+FROM Sales
+GROUP BY Category;
+```
+
+**Example Result:**
+
+| Category    | TotalSales |
+| ----------- | ---------: |
+| Food        |        150 |
+| Clothing    |        300 |
+| Electronics |        500 |
+
+**Conclusion:**
+`GROUP BY` puts similar records together, while `SUM()` calculates the total for each group.
+
+---
+
+### 8. Join Two Tables
+
+```sql
+SELECT
+    c.CustomerName,
+    o.OrderID,
+    o.OrderDate
+FROM Customers c
+INNER JOIN Orders o
+    ON c.CustomerID = o.CustomerID;
+```
+
+**Example Result:**
+
+| CustomerName | OrderID | OrderDate  |
+| ------------ | ------: | ---------- |
+| John         |     101 | 2026-01-05 |
+| Sarah        |     102 | 2026-01-07 |
+
+**Conclusion:**
+`INNER JOIN` connects related information from two tables using a matching value such as `CustomerID`.
+
+---
+
+## Overall Conclusion
+
+These SQL examples demonstrate basic data retrieval and analysis skills, including:
+
+* Retrieving data using `SELECT`
+* Filtering data using `WHERE`
+* Sorting data using `ORDER BY`
+* Calculating totals using `SUM()`
+* Finding averages using `AVG()`
+* Counting records using `COUNT()`
+* Grouping data using `GROUP BY`
+* Connecting tables using `INNER JOIN`
+
+These queries provide a foundation for using SQL to retrieve, organise and analyse data.
 
 
 ## Example Business Questions Answered
