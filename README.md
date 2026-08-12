@@ -67,7 +67,16 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
   - `CROSS JOIN`
 - Combined customer, order, product, supplier, and category data to create business-focused reports.
 
-<img width="628" height="256" alt="image" src="https://github.com/user-attachments/assets/e78ed6c2-4e43-4ab5-905c-cf2abbadd647" />
+<img width="492" height="104" alt="image" src="https://github.com/user-attachments/assets/19aad736-1a85-41d5-86b0-988f12f0c3b9" />
+
+This is a clear example of a left join and its breakdown
+
+SELECT customers.customername, orders.orderid - selects the customers name and thier order id.
+
+FROM customers - selecting from the customers table.
+
+LEFT JOIN orders - connects the orders table to the customers table (a left join keeps all results for customers even if they dont have an order)
+
 
 <img width="629" height="176" alt="image" src="https://github.com/user-attachments/assets/b71bfd0d-ce66-470a-9520-addbf25ec403" />
 
