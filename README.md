@@ -72,6 +72,7 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
 
 #This is a clear example of a left join. This function is broken down and explained below. 
 
+
 <img width="336" height="25" alt="image" src="https://github.com/user-attachments/assets/2bfa4f88-a9af-492c-90a3-4406d38f0676" />
 
 - selects the customers name and thier order id.
