@@ -71,14 +71,21 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
 
 This is a clear example of a left join and its breakdown
 
-SELECT customers.customername, orders.orderid - selects the customers name and thier order id.
+<img width="336" height="25" alt="image" src="https://github.com/user-attachments/assets/2bfa4f88-a9af-492c-90a3-4406d38f0676" />
+ - selects the customers name and thier order id.
 
 FROM customers - selecting from the customers table.
 
 LEFT JOIN orders - connects the orders table to the customers table (a left join keeps all results for customers even if they dont have an order)
 
 
-<img width="629" height="176" alt="image" src="https://github.com/user-attachments/assets/b71bfd0d-ce66-470a-9520-addbf25ec403" />
+<img width="272" height="174" alt="Screenshot 2026-08-12 141847" src="https://github.com/user-attachments/assets/46792da1-79c2-41f5-8bd6-fd69c603b15f" />
+
+This is clear example of a full outer join and its breakdown. 
+
+
+
+
 
 <img width="629" height="259" alt="image" src="https://github.com/user-attachments/assets/45002825-bfa0-4be5-a668-af67f8579276" />
 
