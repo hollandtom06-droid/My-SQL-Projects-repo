@@ -46,6 +46,15 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
   SUM() = Adds numbers together
   
   AVG() = Finds the average amount
+
+  Examples below -
+
+  <img width="292" height="41" alt="image" src="https://github.com/user-attachments/assets/9d3ed53b-1cc2-4d16-b103-88feff61e292" />
+  <img width="258" height="38" alt="image" src="https://github.com/user-attachments/assets/c7c72089-abd6-40d7-a643-20c7f077bfe3" />
+  <img width="298" height="31" alt="image" src="https://github.com/user-attachments/assets/ab10d908-06cc-4874-b0ac-536275fb608e" />
+
+
+
   
 - Generated reports showing product counts, sales volumes, and category-level insights.
 
