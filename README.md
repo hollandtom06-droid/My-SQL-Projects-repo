@@ -89,6 +89,11 @@ This project was completed during a Data Technician Bootcamp and demonstrates th
 
 - this tells SQL how to connect the tables, it then matches up customers where their customerid is the same in both tables.
 
+<img width="174" height="24" alt="image" src="https://github.com/user-attachments/assets/93e20085-1c27-4e0c-99ef-dee4db7b27ce" />
+
+- only shows customers who don't have an order. when a customer has no matching order SQL puts null (nothing) in the orderid column
+
+
 ### Customer Order Analysis
 
 This query identifies customers who have not placed any orders.
